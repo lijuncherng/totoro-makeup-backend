@@ -1,0 +1,5 @@
+# 强制用仓库根目录的 Dockerfile（避免 Nixpacks 走 node:20 + 另一套构建）
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
