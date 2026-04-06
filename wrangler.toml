@@ -1,0 +1,18 @@
+name = "totoro-makeup-backend"
+main = "src/cf-worker.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+ENVIRONMENT = "production"
+ALLOWED_ORIGINS = "*"
+
+# 重要：以下变量在 Cloudflare Dashboard → Settings → Variables 中设置，或通过 CLI:
+#   npx wrangler secret put SUPABASE_URL
+#   npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY
+#   npx wrangler secret put ADMIN_SECRET
+# 不要把密钥写在 wrangler.toml 里！
+#
+# SUPABASE_URL = "https://xxxx.supabase.co"
+# SUPABASE_SERVICE_ROLE_KEY = "eyJ..."
+# ADMIN_SECRET = "your-admin-secret"
+# SKIP_TOKEN_VERIFY = "false"

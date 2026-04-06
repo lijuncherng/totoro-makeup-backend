@@ -1,0 +1,13 @@
+{
+  "backupTime": "2026-03-21T03:11:16.686Z",
+  "supabaseUrl": "https://tgxzonqqifaakjmbaiml.supabase.co",
+  "tables": {
+    "sessions": 12,
+    "recharge_cards": 81,
+    "user_balances": 1,
+    "balance_transactions": 29,
+    "balance_consumptions": 5,
+    "makeup_tasks": 0
+  },
+  "nodeVersion": "v22.21.1"
+}

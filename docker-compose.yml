@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  makeup-backend:
+    build: .
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+      - TOTORO_API_URL=https://app.xtotoro.com/app
+      - TOTORO_USER_AGENT=TotoroSchool/1.2.14 (iPhone; iOS 17.4.1; Scale/3.00)
+      - PORT=3001
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # 可选：使用 PM2 管理进程
+  makeup-backend-pm2:
+    image: node:18-alpine
+    working_dir: /app
+    command: sh -c "npm install -g pm2 && pm2 start dist/index.js --name makeup-backend && pm2 logs --lines 50"
+    ports:
+      - "3001:3001"
+      - "3002:3002"  # PM2 日志端口
+    environment:
+      - NODE_ENV=production
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+      - TOTORO_API_URL=https://app.xtotoro.com/app
+      - TOTORO_USER_AGENT=TotoroSchool/1.2.14 (iPhone; iOS 17.4.1; Scale/3.00)
+      - PORT=3001
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS}
+    volumes:
+      - ./dist:/app/dist:ro
+      - pm2-data:/app/.pm2
+    restart: unless-stopped
+
+volumes:
+  pm2-data:

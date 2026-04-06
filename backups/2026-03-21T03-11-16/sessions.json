@@ -1,0 +1,134 @@
+[
+  {
+    "id": "235cee44-a73c-4a6b-b371-e4f2ee4ab314",
+    "campus_id": "QJXQ",
+    "school_id": "cqifs",
+    "stu_number": "202413006775",
+    "token": "APPxEWwxY69dq3HzjE+F8cKWWtMMBBE/o/KattOXq+EARh/sdhhH6Ba2zXF/pRbeKAMlXco43EWgXh6GXIHSVo230liY4kB7F4i",
+    "phone_number": "13038323154",
+    "sex": "男",
+    "created_at": "2026-03-20T17:01:09.142142+00:00",
+    "expires_at": "2026-04-19T17:01:08.117+00:00"
+  },
+  {
+    "id": "e4c74798-b9d3-4102-a7ca-349de6abfaff",
+    "campus_id": "QJXQ",
+    "school_id": "cqifs",
+    "stu_number": "202413006775",
+    "token": "APPBEHWMvZDYxiZ8XuLj+rQ8SEim/dMOFgOuSYvINln8iSt+KhdKQE5lMT2lLLfHqs7r/Ujxp7huCpFr+qt45YmSqxTD2D1M+Lv",
+    "phone_number": "13038323154",
+    "sex": "男",
+    "created_at": "2026-03-20T17:40:13.936772+00:00",
+    "expires_at": "2026-04-19T17:40:13.513+00:00"
+  },
+  {
+    "id": "b8f28e32-fb1c-4b69-986e-45b599c28b2e",
+    "campus_id": "QJXQ",
+    "school_id": "cqifs",
+    "stu_number": "202413006775",
+    "token": "APP//LkVkYhh3X/fzNOFmU92fK3dxmPzo6ta5+yOxl5x80o67wgq0RAo9wN8/IvXPh6xNFWIKGZ58UkMndolIrGlakquQIvw5y4",
+    "phone_number": "13038323154",
+    "sex": "男",
+    "created_at": "2026-03-20T19:28:39.903923+00:00",
+    "expires_at": "2026-04-19T19:28:38.569+00:00"
+  },
+  {
+    "id": "8b179ea7-5fa0-4f8d-819f-48b3f82f5c93",
+    "campus_id": "QJXQ",
+    "school_id": "cqifs",
+    "stu_number": "202413006775",
+    "token": "APPpmSITPFnJaVrm3l1iwHHAJhK4xf27C8K5CjFvrj79VxZPCPwnnMBAK/OVHmJ7aIacIwuxRo4XQZeI23g18XJjLEEAZPCdtlp",
+    "phone_number": "13038323154",
+    "sex": "男",
+    "created_at": "2026-03-20T22:21:50.826174+00:00",
+    "expires_at": "2026-04-19T22:21:50.296+00:00"
+  },
+  {
+    "id": "025f70a4-e134-4636-bc69-ad55d8bf36c7",
+    "campus_id": "QJXQ",
+    "school_id": "cqifs",
+    "stu_number": "202413006775",
+    "token": "APPE/RFGbC8gsJPpCVbWxLZV2Wwj1NewYiFiDXXBhe2mhOHxFKMx0yAhuTnVZVnmI+yIu8en2mKvkfg15b2trVzhh9cD1XkwlJi",
+    "phone_number": "13038323154",
+    "sex": "男",
+    "created_at": "2026-03-20T23:11:07.821537+00:00",
+    "expires_at": "2026-04-19T23:11:08.484+00:00"
+  },
+  {
+    "id": "dbe99d2d-8ee6-4c6e-b578-852034238d55",
+    "campus_id": "QJXQ",
+    "school_id": "cqifs",
+    "stu_number": "202413006775",
+    "token": "APP00cEVcnUZgCMhprL+CujjEmtlNmlGTsVVqifBGYLx1b2urVUf+37iYegMQWKsWRb3A9UKDgutQcYDNHjwXbhPR9cD1XkwlJi",
+    "phone_number": "13038323154",
+    "sex": "男",
+    "created_at": "2026-03-21T00:17:13.04977+00:00",
+    "expires_at": "2026-04-20T00:17:12.122+00:00"
+  },
+  {
+    "id": "adad157a-de63-4aa3-a1a6-a3d4b2009c62",
+    "campus_id": "QJXQ",
+    "school_id": "cqifs",
+    "stu_number": "202413006775",
+    "token": "APPt6Sg/i5KG7Q8QdEKgjkNaO9QS52LZX6WJJlzvumIClono6aa2ilCFLqzbibbNu5u9kaGmeKlrzmBbZfNywDPd3bKvNXaigvv",
+    "phone_number": "13038323154",
+    "sex": "男",
+    "created_at": "2026-03-21T00:50:41.89886+00:00",
+    "expires_at": "2026-04-20T00:50:37.443+00:00"
+  },
+  {
+    "id": "7cb30c56-7eba-4dcb-80b0-08f8ed2f5578",
+    "campus_id": "QJXQ",
+    "school_id": "cqifs",
+    "stu_number": "202413006775",
+    "token": "APPt6Sg/i5KG7Q8QdEKgjkNaO9QS52LZX6WJJlzvumIClono6aa2ilCFLqzbibbNu5u9kaGmeKlrzmBbZfNywDPd3bKvNXaigvv",
+    "phone_number": "13038323154",
+    "sex": "男",
+    "created_at": "2026-03-21T01:11:28.954865+00:00",
+    "expires_at": "2026-04-20T01:11:24.61+00:00"
+  },
+  {
+    "id": "6829cb32-4a34-4265-9ecb-df10cefccb97",
+    "campus_id": "QJXQ",
+    "school_id": "cqifs",
+    "stu_number": "202413006775",
+    "token": "APPt6Sg/i5KG7Q8QdEKgjkNaO9QS52LZX6WJJlzvumIClono6aa2ilCFLqzbibbNu5u9kaGmeKlrzmBbZfNywDPd3bKvNXaigvv",
+    "phone_number": "13038323154",
+    "sex": "男",
+    "created_at": "2026-03-21T01:11:31.083152+00:00",
+    "expires_at": "2026-04-20T01:11:27.174+00:00"
+  },
+  {
+    "id": "205f8de3-d599-4442-8f55-2d582c79ba41",
+    "campus_id": "QJXQ",
+    "school_id": "cqifs",
+    "stu_number": "202413006775",
+    "token": "APPt6Sg/i5KG7Q8QdEKgjkNaO9QS52LZX6WJJlzvumIClono6aa2ilCFLqzbibbNu5u9kaGmeKlrzmBbZfNywDPd3bKvNXaigvv",
+    "phone_number": "13038323154",
+    "sex": "男",
+    "created_at": "2026-03-21T01:12:47.814657+00:00",
+    "expires_at": "2026-04-20T01:12:43.512+00:00"
+  },
+  {
+    "id": "9bde535a-228b-42c5-baad-6cb982a17ad9",
+    "campus_id": "QJXQ",
+    "school_id": "cqifs",
+    "stu_number": "202413006775",
+    "token": "APPt6Sg/i5KG7Q8QdEKgjkNaO9QS52LZX6WJJlzvumIClono6aa2ilCFLqzbibbNu5u9kaGmeKlrzmBbZfNywDPd3bKvNXaigvv",
+    "phone_number": "13038323154",
+    "sex": "男",
+    "created_at": "2026-03-21T01:12:48.55637+00:00",
+    "expires_at": "2026-04-20T01:12:44.233+00:00"
+  },
+  {
+    "id": "0f5674a4-1160-4517-87b3-79cce0e44200",
+    "campus_id": "QJXQ",
+    "school_id": "cqifs",
+    "stu_number": "202413006775",
+    "token": "APPt6Sg/i5KG7Q8QdEKgjkNaO9QS52LZX6WJJlzvumIClono6aa2ilCFLqzbibbNu5u9kaGmeKlrzmBbZfNywDPd3bKvNXaigvv",
+    "phone_number": "13038323154",
+    "sex": "男",
+    "created_at": "2026-03-21T01:12:50.048415+00:00",
+    "expires_at": "2026-04-20T01:12:46.156+00:00"
+  }
+]
