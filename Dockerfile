@@ -2,9 +2,9 @@ FROM node:23-alpine
 
 WORKDIR /app
 
-COPY package.json pnpm-lock.yaml ./
-# lockfile 6.x 需 pnpm 9；Node 自带 corepack 可能激活 pnpm 10 导致 ERR_PNPM_LOCKFILE_BREAKING_CHANGE
-RUN corepack enable && corepack prepare pnpm@9.15.9 --activate && pnpm install --frozen-lockfile
+# 只复制 package.json：仓库里 pnpm-lock.yaml 曾与 package.json 不一致会导致 frozen 安装失败
+COPY package.json ./
+RUN corepack enable && corepack prepare pnpm@9.15.9 --activate && pnpm install
 
 COPY tsconfig.json build.mjs server.js ./
 COPY src ./src
