@@ -16,6 +16,7 @@ await esbuild.build({
     'src/worker.ts',
     'src/utils/cardGenerator.ts',
     'src/db/supabase.ts',
+    'src/services/encryption.ts',
     'src/services/executor.ts',
     'src/services/totoro.ts',
   ],
